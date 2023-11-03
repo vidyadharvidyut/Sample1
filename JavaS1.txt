@@ -1,0 +1,141 @@
+// basic
+
+/*var name = 'vidyut'
+var add = 10 + 10
+
+welcome = "hi vidyut welcome to my website"
+
+console.log(name);
+console.log(add);  
+*/
+
+//functioms 
+//create
+function Welcome(name){
+  console.log("hi "+name+" welcome to my website"+message);
+}
+var message = ' here you can learn webdevelopment'
+//call
+Welcome("rajesh")
+Welcome("vishal",message)
+
+//objects
+//user difend objects
+var person = {
+  name : 'vidyut',
+  age : 21,
+  city : 'coimbatore',
+  food: {
+    fav:'biriyani',
+    allergy:'nuts'
+  },
+  welcome(){
+    console.log('welcome to my website')
+  }
+}
+
+console.log(person.name)
+console.log(person.welcome())
+console.log(person.age)
+console.log(person.food)
+console.log(person.food.fav)
+
+console.log(person)
+
+//arrays
+var shoecolor1 ='blue'
+var shoecolor1 ='red'
+
+var bikeColor =['black','green','white']
+var bikeModel = ['r15','fz','rs']
+var color = 'red'
+var bike = [
+  
+  (color='blue', model='r15'),
+  (color='red', model='fz')
+]
+
+console.log(bikeColor)
+console.log(bikeColor[1])
+
+bikeColor.push("brown")
+bikeColor.reverse()
+
+console.log(bike[0],model)
+
+
+
+//conditional statement
+
+/*var cost = 200
+
+if (cost >250){
+  console.log('yes u can buy')
+}
+else {
+  console.log('sorry min cost is 250')
+}
+*/
+
+/*var Age = 17
+
+if (Age >=18){
+  console.log('u can ')
+}
+else {
+  console.log('sorry , min age is 18')
+}
+
+var age =Age>=18? console.log("reg") :console.log("can't")
+*/
+console.log('vidyut is an best engineer')
+console.log('vidyut is an best engineer')
+console.log('vidyut is an best engineer')
+//or 
+count =0;
+while(count <5){
+  console.log('vidyut is an good engineer')
+ console.log(count++)
+}
+
+//var number =10
+
+
+/*function add(number){
+  return(number+3)
+}
+
+function sub(number){
+  return(number-3)
+}
+*/
+function twoX(number){
+  return(2*number)
+}
+
+function multiplier(whichNumber){
+  return function(x){
+    return x*whichNumber
+  }
+}
+var twox=multiplier(2)
+var threex=multiplier(3)
+var fourx=multiplier(4)
+
+console.log(twox(10))
+console.log(threex(10))
+console.log(fourx(10))
+/*add1 =(number) => {
+  return(number+2)
+}
+
+add2 =(number)=> (number+4)
+*/
+
+
+
+//console.log(add(number))
+console.log(twoX(100))
+//console.log(sub(number))
+//console.log(add1(number))
+//console.log(add2(number))
